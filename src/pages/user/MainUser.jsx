@@ -1,14 +1,14 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import HomePage from "./HomePage";
-import ProdukHukum from "./produkhukum";
-import Renstra from "./renstra";
-import ProgramBeasiswa from "./programBeasiswa";
-import SejarahDinas from "./sejarahDinas";
-import StrukturDinas from "./strukturdinas";
-import Tupoksi from "./tupoksi";
-import VisiMisi from "./visimisi";
-import FormBeasiswa from "./formBeasiswa";
+import ProdukHukum from "./ProdukHukum";
+import Renstra from "./Renstra";
+import ProgramBeasiswa from "./ProgramBeasiswa";
+import SejarahDinas from "./SejarahDinas";
+import StrukturDinas from "./StrukturDinas";
+import Tupoksi from "./Tupoksi";
+import VisiMisi from "./VisiMisi";
+import FormBeasiswa from "./FormBeasiswa";
 import DetailPendaftar from "./DetailPendaftar";
 
 const MainUser = () => {
