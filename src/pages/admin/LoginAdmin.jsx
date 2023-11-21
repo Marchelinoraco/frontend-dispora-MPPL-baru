@@ -1,15 +1,17 @@
 import React from "react";
 
+import Grup2 from "../../assets/img/Group 2.png";
+
 const LoginAdmin = () => {
   return (
     <div
-      style="background-image: url(./assets/img/Desktop\ -\ 10\ 1.png)"
+      // style="background-image: url(./assets/img/Desktop\ -\ 10\ 1.png)"
       classname="flex w-[1440px] justify-center py-60"
     >
       {/* <!-- content --> */}
       <div classname="flex flex-col h-60 bg-[#4C4C4C] px-40 py-56 rounded-2xl justify-center items-center">
         <div classname="mt-[-200px]">
-          <img src="./assets/img/Group 2.png" alt="" />
+          <img src={Grup2} alt="" />
         </div>
         <br />
         <br />

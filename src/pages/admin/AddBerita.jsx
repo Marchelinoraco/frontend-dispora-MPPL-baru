@@ -1,20 +1,27 @@
 import React from "react";
+import Dispora1 from "../../assets/img/Dispora 1.png";
+import Grup2 from "../../assets/img/Group 2.png";
+import Grup3 from "../../assets/img/Group 3.png";
+import Copyofdispora from "../../assets/img/Copy of Dispora (1) 1.png";
+import Grup4 from "../../assets/img/Group 4.png";
+import Grup5 from "../../assets/img/Group 5.png";
+
 const AddBerita = () => {
   return (
     <div classname="flex-col w-[1440px] max-h-full">
       {/* <!-- navbar --> */}
       <div classname="flex w-[1440px] h-24 justify-between border-b-2 border-b-red-800">
         <div classname="flex">
-          <img classname="w-72 h-20" src="./assets/img/Dispora 1.png" alt="" />
+          <img classname="w-72 h-20" src={Dispora1} alt="" />
         </div>
 
         <div classname="flex items-center mr-6">
-          <img classname="h-20" src="./assets/img/Group 2.png" alt="" />
+          <img classname="h-20" src={Grup2} alt="" />
         </div>
       </div>
 
       <div>
-        <img classname="h-14" src="./assets/img/Group 3.png" alt="" />
+        <img classname="h-14" src={Grup3} alt="" />
       </div>
 
       <div classname="mx-40">
@@ -27,7 +34,7 @@ const AddBerita = () => {
       <div classname="h-52 mx-40 flex">
         <img
           classname="h-60 rounded-tl-xl rounded-bl-xl"
-          src="./assets/img/Copy of Dispora (1) 1.png"
+          src={Copyofdispora}
           alt=""
         />
 
@@ -43,10 +50,10 @@ const AddBerita = () => {
           </p>
           <div classname="flex justify-end">
             <button classname="p-4">
-              <img classname="h-10" src="./assets/img/Group 4.png" alt="" />
+              <img classname="h-10" src={Grup4} alt="" />
             </button>
             <button classname="p-4">
-              <img classname="h-10" src="./assets/img/Group 5.png" alt="" />
+              <img classname="h-10" src={Grup5} alt="" />
             </button>
           </div>
         </div>
@@ -54,7 +61,7 @@ const AddBerita = () => {
       <div classname="h-52 mx-40 flex my-10">
         <img
           classname="h-60 rounded-tl-xl rounded-bl-xl"
-          src="./assets/img/Copy of Dispora (1) 1.png"
+          src={Copyofdispora}
           alt=""
         />
 
@@ -70,10 +77,10 @@ const AddBerita = () => {
           </p>
           <div classname="flex justify-end">
             <button classname="p-4">
-              <img classname="h-10" src="./assets/img/Group 4.png" alt="" />
+              <img classname="h-10" src={Grup4} alt="" />
             </button>
             <button classname="p-4">
-              <img classname="h-10" src="./assets/img/Group 5.png" alt="" />
+              <img classname="h-10" src={Grup5} alt="" />
             </button>
           </div>
         </div>
@@ -81,7 +88,7 @@ const AddBerita = () => {
       <div classname="h-52 mx-40 flex">
         <img
           classname="h-60 rounded-tl-xl rounded-bl-xl"
-          src="./assets/img/Copy of Dispora (1) 1.png"
+          src={Copyofdispora}
           alt=""
         />
 
@@ -97,10 +104,10 @@ const AddBerita = () => {
           </p>
           <div classname="flex justify-end">
             <button classname="p-4">
-              <img classname="h-10" src="./assets/img/Group 4.png" alt="" />
+              <img classname="h-10" src={Grup4} alt="" />
             </button>
             <button classname="p-4">
-              <img classname="h-10" src="./assets/img/Group 5.png" alt="" />
+              <img classname="h-10" src={Grup5} alt="" />
             </button>
           </div>
         </div>

@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import Footer from "../../components/Footer";
 
 const FormBeasiswa = () => {
   return (
@@ -151,64 +153,7 @@ const FormBeasiswa = () => {
       <br />
       <br />
       {/* <!-- footer --> */}
-      <div classname="h-56 bg-[#D9D9D9]">
-        <div classname="flex justify-between mx-10 items-center mt-4">
-          <div classname="h-36">
-            <img src="./assets/img/dispora bgD9.png" alt="" />
-          </div>
-          <div classname="flex flex-col items-start">
-            <h1 classname="text-2xl py-1 pt-5">Tentang Kami</h1>
-            <button classname="text-xl py-1">
-              <a href="">Visi Misi</a>
-            </button>
-            <button classname="text-xl py-1">
-              <a href="">Tupoksi</a>
-            </button>
-            <button classname="text-xl py-1">
-              <a href="">Struktur Dinas</a>
-            </button>
-          </div>
-          <div classname="flex flex-col items-start">
-            <h1 classname="text-2xl py-1 pt-5">Kontak</h1>
-            <button classname="text-xl py-1">
-              <a href="">(012) 12345678</a>
-            </button>
-            <button classname="text-xl py-1">
-              <a href="">Jln. Trans Sulawesi, Amurang</a>
-            </button>
-            <button classname="text-xl py-1">
-              <a href="">disporaminsel@gmail.com</a>
-            </button>
-          </div>
-          <div classname="flex">
-            <button>
-              <a href="">
-                <img
-                  classname="h-10 px-2"
-                  src="./assets/img/🦆 icon _instagram_.png"
-                  alt=""
-                />
-              </a>
-            </button>
-            <button>
-              <a href="">
-                <img
-                  classname="h-10 px-2"
-                  src="./assets/img/🦆 icon _facebook_.png"
-                  alt=""
-                />
-              </a>
-            </button>
-            <a href="">
-              <img
-                classname="h-10 px-2"
-                src="./assets/img/🦆 icon _whatsapp_.png"
-                alt=""
-              />
-            </a>
-          </div>
-        </div>
-      </div>
+      <Footer />
       {/* <!-- footer end --> */}
     </div>
   );
